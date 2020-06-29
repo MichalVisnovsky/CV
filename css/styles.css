@@ -1,0 +1,104 @@
+.topcontainer{
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 100px;
+  z-index: -2;
+}
+.middlecontainer{
+  background-color: #e4f9f5;
+}
+.bottomcontainer{
+  background-color: #cbf1f5;
+  height: 20px;
+  display: block;
+}
+hr{
+  border-style: dotted;
+  border-width: 8px ;
+  border-bottom: none;
+  width: 45px;
+  border-color: grey;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather',sans-serif;
+  background-color:#cbf1f5;
+  margin-bottom: 0;
+}
+h1{
+  color:#66bfbf;
+  font-size: 500%;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color:#66bfbf;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 200%;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat',sans-serif;
+  line-height: 0.5;
+  font-size: 150%;
+}
+.prospec{
+  font-weight:bold;
+  font-size: 2.5rem;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 200px;
+
+}
+.top-cloud{
+  position:relative;
+  left: 200px;
+}
+.mountain{
+  position:relative;
+  margin:0 auto;
+  top: 10px;
+
+}
+.mountcontainer{
+  width:1000px;
+  margin:0 auto;
+}
+.halfcircle{
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background-color: #11999e;
+  position: absolute;
+  z-index: -1;
+  margin-left:250px;
+}
+.portrait{
+  margin-top: 50px;
+  width:180px;
+  border:solid 8px;
+  border-radius: 100%;
+  border-color: #84a9ac;
+}
+.profile{
+  width: 600px;
+  margin: 0 auto 0 auto;
+}
+.skill-row{
+  width: 600px;
+  margin: 100px auto 100px auto;
+}
+.hp-img{
+  float: left;
+  margin-right: 30px;
+}
+.free-img{
+  float: right;
+  margin-right: 30px;
+}
+.contact-me{
+  margin:0px;
+}
