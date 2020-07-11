@@ -41,7 +41,15 @@ $(document).keypress(function(){
     nextSequence();
     started = true;
   }
-})
+});
+$("#start").click(function() {
+  if (!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+}
+);
 
 function checkAnswer(currentLevel) {
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {

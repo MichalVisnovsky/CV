@@ -18,6 +18,18 @@ body {
 }
 
 .btn {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.btnn {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
   margin: 25px;
   display: inline-block;
   height: 200px;
